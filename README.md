@@ -1,6 +1,5 @@
-# BOSS Trigger Framework
-
 # Business Oriented Simple Structure Apex trigger framework
+
 
 Simplicity, Readability, Separation of Concerns, Multi-Dev Stream Friendly, Order of Execution, Muting
 
