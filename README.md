@@ -38,7 +38,7 @@
 * TriggerDataManagerBase
 * TriggerParameters
 
-# Sample Code 
+## Sample Code 
 
 ```
 trigger CaseTrigger on Case(before insert,after insert, before update,after update, before delete, after delete) {
@@ -60,8 +60,9 @@ public class updateCaseMilestoneHandler extends TriggerHandlerBase {
         Case oldRecord = (Case)TriggerParameter.oldMap.get(c.Id); 
         caseIdSet.add(c.Id); 
       } 
-    } catch (Exception ex) 
-      { } 
-  } 
+    } catch(Exception ex) {
+    } 
+  }
+  
 }
 ```
