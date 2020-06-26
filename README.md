@@ -1,4 +1,4 @@
-# Business Scenario Oriented Simple Structure Apex trigger framework
+# Business Scenario Oriented Simple Structure Apex Trigger Framework
 
 ## Summary
 * Simplicity
