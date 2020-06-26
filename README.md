@@ -10,7 +10,7 @@
 
 ### Simplicity, Readability & Maintainability
 * 2 level simple structure for easy access and readability
-* Descriptive trigger handler name for easy understanding of business purpose
+* Descriptive business scenario based trigger handler name for easy understanding of business purpose
 * Easy maintenance of single purpose handler class
 
 ### Separation of Concerns
