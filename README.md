@@ -14,7 +14,7 @@
 * Easy maintenance of single purpose handler class
 
 ### Separation of Concerns
-*## Trigger - High level trigger execution flow
+* Trigger - High level trigger execution flow
 * Trigger handler class - Detailed business logic code
 
 ### Multi Development Stream Friendly
