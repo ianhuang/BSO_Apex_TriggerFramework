@@ -42,7 +42,12 @@
 
 ```
 trigger CaseTrigger on Case(before insert,after insert, before update,after update, before delete, after delete) {
-
+  
+  //skip trigger execution if bypass trigger setting is set to true 
+  if(Bypass_Setting__c.getInstance().Bypass_Trigger__c) {
+     return;
+  }
+    
   new Triggers() 
     .bind(Triggers.Evt.BeforeUpdate, new updateCaseMilestoneHandler()) 
     .bind(Triggers.Evt.AfterUpdate, new referralEmailHandler()) 
